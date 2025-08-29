@@ -1,7 +1,7 @@
 # Arduino LED Matrix Controller
 A project for controlling the Arduino LED Matrix through serial commands. This code allows you to display, animate, and manipulate patterns on the matrix with simple text commands.
 
-Features
+# Features
 Display predefined patterns
 
 Turn the matrix on/off
@@ -26,7 +26,7 @@ Upload this sketch to your board
 
 Open the Serial Monitor (set to 9600 baud)
 
-Usage
+# Usage
 After uploading the code, open the Serial Monitor and send one of the following commands:
 
 On - Display the predefined pattern
@@ -52,17 +52,24 @@ Animate_Right(): Shifts the pattern to the right
 
 Animate_Left(): Shifts the pattern to the left
 
-Examples
+# Examples
 Animation Demo
-<!-- Leave this section to add a GIF showing the animation -->
-(On.gif)
 
-<!-- Leave this section to add a GIF showing the left animation -->
-https://left_animation.gif <!-- Replace with actual GIF -->
+![Turning On](On.gif)
+
+![Turning Off](Off.gif)
+
+
+
+![Animating Left](LeftMove.gif)
+
+![Animating Right](RightMove.gif)
+
+
 
 Pattern Inversion Demo
-<!-- Leave this section to add a GIF showing the swap function -->
-https://swap_demo.gif <!-- Replace with actual GIF -->
+
+![Swapping Indicies](Swap.gif)
 
 Circuit Diagram
 No external wiring is needed as this uses the built-in LED matrix on compatible Arduino boards.
